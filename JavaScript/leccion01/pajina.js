@@ -1,0 +1,26 @@
+
+let mes = 120;
+let estacion;
+if (mes == 1 || mes == 2|| mes ==12){
+    
+    estacion = "inviernos";
+}
+else if (mes == 3|| mes == 4|| mes == 5){
+    
+    estacion = "primavera";
+
+}   
+else if (mes == 6|| mes == 7|| mes== 8){
+    
+    estacion ="veranos";
+
+}else if (mes == 9|| mes == 10|| mes== 11){
+ 
+    estacion ="Otoño";
+
+}else{
+ 
+    estacion ="No es una estacion.";
+
+}
+console.log(estacion)
